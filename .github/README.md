@@ -1,4 +1,4 @@
-Training/Demo Repo for LieberLIeber LemonTree and LemonTree.Automation with Sparx Systems Enterprise Architect Models
+Training/Demo Repository for LieberLieber LemonTree and LemonTree.Automation with Sparx Systems Enterprise Architect Models
 ==================================
 Disclaimer: we use this Repo to develop and test the scripts.
 This Repo contains:

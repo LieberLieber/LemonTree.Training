@@ -1,0 +1,32 @@
+# Copyright (c) Robert Bosch GmbH
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at https://mozilla.org/MPL/2.0/.
+
+name: ConsistencyCheck
+
+on:
+ push:
+
+env:
+  ModelName: pwc
+  ModelExtension: eapx
+  LemonTreeAutomationExecutable: C:\Program Files\LieberLieber\LemonTree.Automation\LemonTree.Automation.exe
+
+jobs:
+  ConsistencyCheck:
+    runs-on: [self-hosted, lemontree]
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          lfs: true
+          fetch-depth: 0
+                      
+      - name: ConsistencyCheck
+        shell: pwsh
+        run: |
+          &"${{env.LemonTreeAutomationExecutable}}" ConsistencyCheck --Model ${{env.ModelName}}.${{env.ModelExtension}}
+ 
+     
+    

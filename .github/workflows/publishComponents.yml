@@ -40,7 +40,7 @@ jobs:
       - name: Upload LemonTree Components to Nexus
         shell: pwsh
         run: |
-          $files = Get-ChildItem .mpms
+          $files = Get-ChildItem *.mpms
           foreach ($file in $files) 
           {
           $file

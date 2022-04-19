@@ -10,7 +10,7 @@ on:
     types: [created]
     
 env:
-  ModelName: pwc
+  ModelName: PWC
   ModelExtension: eapx
   GitHubProjectRoot: https://github.com/LieberLieber/LemonTree.Automation.Workflows
   LemonTreeAutomationExecutable: C:\Program Files\LieberLieber\LemonTree.Automation\LemonTree.Automation.exe

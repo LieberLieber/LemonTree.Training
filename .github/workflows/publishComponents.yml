@@ -49,7 +49,7 @@ jobs:
             $targetUrl = "${{env.ReviewSessionURL}}$sfName"
             echo "Uploading $sessionFileName to Nexus: $targetUrl"
             while (Test-Path Alias:curl) {Remove-Item Alias:curl} #remove the alias binding from curl to Invoke-WebRequest
-            curl "-u${{secrets.NEXUSAUTHENTICATION}}" -T .\sfName $targetUrl
+            curl "-u${{secrets.NEXUSAUTHENTICATION}}" -T .\$sfName $targetUrl
           }
          
       - name: Archive Session Files

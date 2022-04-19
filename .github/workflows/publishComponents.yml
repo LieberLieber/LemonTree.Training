@@ -37,6 +37,13 @@ jobs:
         run: |
           &"${{env.LemonTreeAutomationExecutable}}" import --Model ${{env.ComponentModelShortCut}} --Components "*.mpms"
 
+      - name: Archive Session Files
+        uses: actions/upload-artifact@v3
+        with:
+          name: Model Components
+          path: "*.mpms"
+          retention-days: 5
+
       - name: Upload LemonTree Components to Nexus
         shell: pwsh
         run: |
@@ -50,11 +57,6 @@ jobs:
             curl "-u${{secrets.NEXUSAUTHENTICATION}}" -T .\$sfName $targetUrl
           }
          
-      - name: Archive Session Files
-        uses: actions/upload-artifact@v3
-        with:
-          name: Model Components
-          path: "*.mpms"
-          retention-days: 5
+
 
     

@@ -44,10 +44,10 @@ jobs:
           foreach ($file in $files) 
           {
           $file
-          $targetUrl = "${{env.ReviewSessionURL}}$file"
+          $targetUrl = "${{env.ReviewSessionURL}}$file.Name"
           echo "Uploading $sessionFileName to Nexus: $targetUrl"
           while (Test-Path Alias:curl) {Remove-Item Alias:curl} #remove the alias binding from curl to Invoke-WebRequest
-          curl "-u${{secrets.NEXUSAUTHENTICATION}}" -T .\$file $targetUrl
+          curl "-u${{secrets.NEXUSAUTHENTICATION}}" -T .\$file.Name $targetUrl
           }
          
       - name: Archive Session Files

@@ -6,3 +6,5 @@ This Repo contains:
 * GitHub Actions that automate and support the handling of Sparx Systems Enterprise Architect Models with LemonTree.Automation
 
 Should be used with LemonTree 3.3 Desktop installed on the Client.
+
+See also: https://github.com/LieberLieber/LemonTree.Automation.Workflows

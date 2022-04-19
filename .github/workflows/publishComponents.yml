@@ -43,11 +43,9 @@ jobs:
           $files = Get-ChildItem *.mpms
           foreach ($file in $files) 
           {
-            $file
             $sfName =  $file.Name
-            $sfName
             $targetUrl = "${{env.ReviewSessionURL}}$sfName"
-            echo "Uploading $sessionFileName to Nexus: $targetUrl"
+            echo "Uploading $sfName to Nexus: $targetUrl"
             while (Test-Path Alias:curl) {Remove-Item Alias:curl} #remove the alias binding from curl to Invoke-WebRequest
             curl "-u${{secrets.NEXUSAUTHENTICATION}}" -T .\$sfName $targetUrl
           }

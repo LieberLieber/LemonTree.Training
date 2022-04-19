@@ -40,10 +40,15 @@ jobs:
       - name: Upload LemonTree Components to Nexus
         shell: pwsh
         run: |
-          $targetUrl = "${{env.ReviewSessionURL}}Platform-d6f215d1-803d-1db6-5888-87c8a49d8062.mpms"
+          $files = Get-ChildItem .mpms
+          foreach ($file in $files) 
+          {
+          $file
+          $targetUrl = "${{env.ReviewSessionURL}}$file"
           echo "Uploading $sessionFileName to Nexus: $targetUrl"
           while (Test-Path Alias:curl) {Remove-Item Alias:curl} #remove the alias binding from curl to Invoke-WebRequest
-          curl "-u${{secrets.NEXUSAUTHENTICATION}}" -T .\Platform-d6f215d1-803d-1db6-5888-87c8a49d8062.mpms $targetUrl
+          curl "-u${{secrets.NEXUSAUTHENTICATION}}" -T .\$file $targetUrl
+          }
          
       - name: Archive Session Files
         uses: actions/upload-artifact@v3

@@ -57,6 +57,7 @@ jobs:
 
       - name: GetLTA
         uses: LieberLieber/setup-LemonTree.Automation@v0.6
+
         if: ${{steps.checkNumber.outputs.count > 0}}
         id: GetLTA
         with:

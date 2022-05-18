@@ -106,7 +106,8 @@ jobs:
           copy ".git\lfs\objects\$shaPart1\$shaPart2\$sha" "${{env.ModelName}}_head.${{env.ModelExtension}}"
 
       - name: GetLTA
-        uses: LieberLieber/setup-LemonTree.Automation@v0.5
+        uses: LieberLieber/setup-LemonTree.Automation@v0.6
+
         id: GetLTA
         with:
           License: ${{secrets.LTALICENSE}}

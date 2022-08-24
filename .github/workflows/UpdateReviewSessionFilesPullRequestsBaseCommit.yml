@@ -17,7 +17,7 @@ env:
 jobs:
   build:
     # The type of runner that the job will run on
-    runs-on: [self-hosted, lemontree]
+    runs-on: windows-latest
     timeout-minutes: 15
     steps:
       - name: Check for related Pull Requests
@@ -55,8 +55,15 @@ jobs:
           lfs: true
           fetch-depth: 0
 
+      - name: GetLTA
+        uses: LieberLieber/setup-LemonTree.Automation@v0.5
+        if: ${{steps.checkNumber.outputs.count > 0}}
+        id: GetLTA
+        with:
+          License: ${{secrets.LTALICENSE}}
+
       - name: Iterate over Pull Requests
-        if: ${{ steps.checkNumber.outputs.count > 0}}
+        if: ${{steps.checkNumber.outputs.count > 0}}
         id: WorkOnPr
         env:
          jsVar: ${{steps.linked_prs.outputs.result}}
@@ -123,7 +130,7 @@ jobs:
             $sourceFile = $modelFileName +"_"+$commitIds.sourceId
             $targetUrl = "${{env.ReviewSessionURL}}/$sessionFileName"
             
-            &"${{env.LemonTreeAutomationExecutable}}" `
+            &"${{steps.GetLTA.outputs.LemonTreeAutomationExecutable}}" `
               merge `
               --base $baseFile `
               --theirs $targetFile `
@@ -135,7 +142,7 @@ jobs:
             if($LASTEXITCODE -eq 0)
             {
               echo "No merge conflicts, creating diff file"
-              &"${{env.LemonTreeAutomationExecutable}}" `
+              &"${{steps.GetLTA.outputs.LemonTreeAutomationExecutable}}" `
                 diff `
                 --theirs $baseFile `
                 --mine $sourceFile `

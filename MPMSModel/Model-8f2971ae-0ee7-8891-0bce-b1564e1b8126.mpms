@@ -1,19 +1,19 @@
 ﻿//version: 3 (UM: 10.2.2.0)
-//{"ReadOnly":false,"Name":"Model","Guid":"{8f2971ae-0ee7-8891-0bce-b1564e1b8126}","Description":"1","Authors":"","Owners":"","ReleaseNotes":"","Copyright":"","Tags":"","Version":"A","OID":"bbf1ababe65f4c517c511c832fdf4d0aa8270ae4f77207d348f26b0dee53b9ef","Status":0,"Dependencies":[],"ModelPackageInfo":"{992F64E7-7F0D-4e59-9AE5-337AB448DBCD}:25b7840355171211863144fbca264c06d66ecaf8b5eaaf2e7a38931a43331a7e"}
+//{"ReadOnly":false,"Name":"Model","Guid":"{8f2971ae-0ee7-8891-0bce-b1564e1b8126}","Description":"1","Authors":"","Owners":"","ReleaseNotes":"","Copyright":"","Tags":"","Version":"A","OID":"2b179cd12fecf92007bd49d680945cbc4974d1cf9b1d710f7273d455ba3c9116","Status":0,"Dependencies":[],"ModelPackageInfo":"{992F64E7-7F0D-4e59-9AE5-337AB448DBCD}:0badcf3ec44d598e905f9395a7188ca50d220a01a5a4c70d622da8c41821498e"}
 //format: Raw
 {
  "version": "10.2.2.0",
  "objects": [
   {
-   "oid": "lx5JArDlayjWT12Stkkcyg0oeMN7l0OV3up75UjrWv0=",
+   "oid": "F4GPCQhEaEuOO1rMeygUBtJe9SB712TkdJk2MB4ib2Y=",
    "id": "{f9fc01f0-54d4-5166-9927-fa28ac44ca60}",
    "meta": [],
    "prop": [],
    "sub": [
     "I7lFAvBkPsjVlBaT/gUbJdYkhXOEfZtMcPhIWSQGlK0=",
-    "jMcstDTw/IFWOsXewHeFS486gwhJ91xOhJDDa/Lx2G0=",
-    "j84tCcMr6KJveSQwCW9yapQVIgQX+HaWP2BrLiYr4b8=",
-    "zvtuHfXN5bEaOzhHfBge2j3qeIIxjUVgTJazgn6bC4c="]},
+    "OfBoMSYkgBSUN9mBz93saAbN7r5pZY6GLRs9F8d3D8Y=",
+    "grXRh8sGzL9/Ia2aekv4neS5xMZBWvpJ7Z6u266pkH4=",
+    "jMcstDTw/IFWOsXewHeFS486gwhJ91xOhJDDa/Lx2G0="]},
   {
    "oid": "jMcstDTw/IFWOsXewHeFS486gwhJ91xOhJDDa/Lx2G0=",
    "id": "{1C7F10E3-7B3B-44F5-8954-A99BA9CFD3BA}",
@@ -58,7 +58,7 @@
     "KqKJ8V7kVkiKrYDWW+jNUlNRpV8CDVyoXqQnQcodN+0=",
     "Ozwl4hiWoorlHF5+aUNG5OMa2bvOi1F6nOXIT7GpCuM="]},
   {
-   "oid": "j84tCcMr6KJveSQwCW9yapQVIgQX+HaWP2BrLiYr4b8=",
+   "oid": "grXRh8sGzL9/Ia2aekv4neS5xMZBWvpJ7Z6u266pkH4=",
    "id": "{992F64E7-7F0D-4e59-9AE5-337AB448DBCD}",
    "meta": [
     ["+ET","t_package"],
@@ -85,10 +85,10 @@
     ["Element Metadata 1.0::ModifiedDate",""]],
    "parent": "{f9fc01f0-54d4-5166-9927-fa28ac44ca60}",
    "sub": [
-    "mrYK3GrUKVZzp7RsA2MJoNWPVtN3DaycSn/DbWKNuHg=",
-    "rtmz/vQL66gwz4VVlcMtmZ+sxRBK8wmDR9IKCtJKVrc="]},
+    "DEsRjBgM/+HmTULCT4mNON59caLUW0h5fddv2CbnhV0=",
+    "b3Hj8Bza0mD5e95/uxvZ++5wn/XJ3UyJg6kdiY0ifIg="]},
   {
-   "oid": "zvtuHfXN5bEaOzhHfBge2j3qeIIxjUVgTJazgn6bC4c=",
+   "oid": "OfBoMSYkgBSUN9mBz93saAbN7r5pZY6GLRs9F8d3D8Y=",
    "id": "{EA1D0A51-F03B-4840-ACBA-B41F592304EE}",
    "meta": [
     ["+UT","Model"]],
@@ -100,7 +100,7 @@
     ["+M","+V","Public"]],
    "parent": "{f9fc01f0-54d4-5166-9927-fa28ac44ca60}",
    "sub": [
-    "Vs2IN1OzEXf6UEmx5FQNPIv4elKS+7i0hCR1INOSK0Y="]},
+    "cqzMfJJZvNSO39LK0eUnE4Fg7Q/eoagT0omtD2wYHak="]},
   {
    "oid": "rUcqot07e6BRoMhaeYz/ycOiist02oRawiISGBb9AXI=",
    "id": "{mpms model dependency+class}",
@@ -217,7 +217,7 @@
    "sub": [
     "NRPKEzA3vD71ZEfIdEw0vpPhdt/1Lq78cyIzk0PyZfU="]},
   {
-   "oid": "mrYK3GrUKVZzp7RsA2MJoNWPVtN3DaycSn/DbWKNuHg=",
+   "oid": "DEsRjBgM/+HmTULCT4mNON59caLUW0h5fddv2CbnhV0=",
    "id": "{0E01AA69-530E-4894-97B8-803883E8BCD7}",
    "meta": [
     ["+ET","t_package"],
@@ -246,11 +246,12 @@
     ["Element Metadata 1.0::ModifiedDate","2022-09-14T12:01:36Z"]],
    "parent": "{992F64E7-7F0D-4e59-9AE5-337AB448DBCD}",
    "sub": [
-    "MloRZnqbYCRt0NQV3gPznx6E2LiUqcAZ+9KllNWzMAk=",
-    "cH6KT115mxNKJncSWewLSBUdWpak6KPL3kd2/Cweuts=",
-    "dvDZPaQxflul2xkxLQeNiT28unkguev3AsSEhIYdjrc="]},
+    "NUd6sDyb8hkN/sYCd1ZMU28tsFgSFH3wKQTIACZRZ8M=",
+    "UeHzZTCeGVCU8WRlaTF5I7xloU+4wfsPKWj+LKKFxrM=",
+    "YTDlMHqn6i6rtTGOi1hJaY59UflbFbgMVAFl00Hz2GE=",
+    "8YcHOvryEkxsqtRpMfFzYIO6fBSj5CTZMk/xrEktYfA="]},
   {
-   "oid": "rtmz/vQL66gwz4VVlcMtmZ+sxRBK8wmDR9IKCtJKVrc=",
+   "oid": "b3Hj8Bza0mD5e95/uxvZ++5wn/XJ3UyJg6kdiY0ifIg=",
    "id": "{F6C5C0C5-01C2-4e1b-AA20-974ACD2D71C2}",
    "meta": [
     ["+ET","t_package"],
@@ -281,10 +282,10 @@
    "sub": [
     "E96/Pq2OOEcvTPVbIp7biI/0ZzfuskYucnIMhVjwtDI=",
     "e62tmbbzyvtE+FMauSQRD/EmI2XD2wGxdnfmq5StOsY=",
-    "jMUq0kCxUKxEh6FfIX33BXCMxDTatKlnhJF6s7sN1b0=",
+    "hoMvoXZb8655YpB/J5oaQLhlNi0JK43nFePkNK+4n3U=",
     "ml4BIGSTFtppcxP7the5vO5uQUnDJUO1MPs9B3wF+MA="]},
   {
-   "oid": "Vs2IN1OzEXf6UEmx5FQNPIv4elKS+7i0hCR1INOSK0Y=",
+   "oid": "cqzMfJJZvNSO39LK0eUnE4Fg7Q/eoagT0omtD2wYHak=",
    "id": "{4113d057-7eb8-4262-8357-88d32e540340}",
    "meta": [
     ["+ET","t_package"],
@@ -311,10 +312,10 @@
     ["EA Specifics 1.0::StereotypeString","MPMS Spec"],
     ["EA Specifics 1.0::Version",""],
     ["Element Metadata 1.0::CreatedDate","2022-09-14T11:59:18Z"],
-    ["Element Metadata 1.0::ModifiedDate","2022-09-14T11:59:18Z"],
-    ["MPMS Original Location Data","[{\"PackageIdentifier\":{\"id\":\"{992F64E7-7F0D-4e59-9AE5-337AB448DBCD}\"},\"StructurePath\":[]}]"]],
+    ["Element Metadata 1.0::ModifiedDate","2022-09-14T11:59:18Z"]],
    "tvx": [
     ["{45ec1f8c-25e1-c062-f69a-ef18b3a44ef9}","MPMS Configuration.Last Exported Version","A",null,"",false],
+    ["{baab73a0-0543-de1e-7ba6-53d68f33b584}","MPMS Original Location Data","[{\"PackageIdentifier\":{\"id\":\"{992F64E7-7F0D-4e59-9AE5-337AB448DBCD}\"},\"StructurePath\":[]}]",null,"",false],
     ["{b2bd247a-175e-6bcd-cbf4-8263c1aefe93}","MPMS Package GUID","{8f2971ae-0ee7-8891-0bce-b1564e1b8126}",null,"",false]],
    "parent": "{EA1D0A51-F03B-4840-ACBA-B41F592304EE}",
    "ref": [
@@ -322,7 +323,7 @@
     ["{mpms spec+package}","Stereotype",72]],
    "sub": [
     "JHon4I7tW8iJMAdCaQrGLk41/3NUkoCc6g3JHtZuq84=",
-    "dxor1tmuIubDvD7Xq5ifFnw1c5fQNoNreojyHJlux1k="]},
+    "M2DQW94B1Fk8E6Tq5dpBWorHo6z3FtOB0A1ukzU+ROY="]},
   {
    "oid": "FYJateSGa7RkYXMcnKH2gt9nRtD7GC71kmGCTRIeJiY=",
    "id": "{EA Specifics 1.0::requirement}",
@@ -382,7 +383,44 @@
     ["EA Specifics 1.0::Profile::metatype",""]],
    "parent": "{b51fc2d5-e726-9154-bf27-87bb53a85bd8}"},
   {
-   "oid": "dvDZPaQxflul2xkxLQeNiT28unkguev3AsSEhIYdjrc=",
+   "oid": "8YcHOvryEkxsqtRpMfFzYIO6fBSj5CTZMk/xrEktYfA=",
+   "id": "{5E734959-E0DE-42cb-BEBD-7952FE0F3A60}",
+   "meta": [
+    ["+ET","t_object"],
+    ["+EY","UseCase"],
+    ["+NT","0"],
+    ["+OT","UseCase"],
+    ["+ST",""],
+    ["+UT","UseCase"]],
+   "prop": [
+    ["+X","+A",""],
+    ["+M","+D",""],
+    ["+X","+CD?","false"],
+    ["+M","+ABS?","false"],
+    ["+M","+ACT?","false"],
+    ["+M","+FS?","false"],
+    ["+M","+N","Use Case2"],
+    ["+M","+V","Public"]],
+   "tval": [
+    ["EA Specifics 1.0::Author","dsiegl"],
+    ["EA Specifics 1.0::Backcolor","-1"],
+    ["EA Specifics 1.0::BorderStyle","0"],
+    ["EA Specifics 1.0::BorderWidth","-1"],
+    ["EA Specifics 1.0::Bordercolor","-1"],
+    ["EA Specifics 1.0::Complexity","1"],
+    ["EA Specifics 1.0::Fontcolor","-1"],
+    ["EA Specifics 1.0::Language","<none>"],
+    ["EA Specifics 1.0::Phase","1.0"],
+    ["EA Specifics 1.0::Pos",""],
+    ["EA Specifics 1.0::Status","Proposed"],
+    ["EA Specifics 1.0::Style",""],
+    ["EA Specifics 1.0::StyleEx",""],
+    ["EA Specifics 1.0::Version","1.0"],
+    ["Element Metadata 1.0::CreatedDate","2022-09-14T12:07:13Z"],
+    ["Element Metadata 1.0::ModifiedDate","2022-09-14T12:07:13Z"]],
+   "parent": "{0E01AA69-530E-4894-97B8-803883E8BCD7}"},
+  {
+   "oid": "YTDlMHqn6i6rtTGOi1hJaY59UflbFbgMVAFl00Hz2GE=",
    "id": "{8A4E1178-0E84-4666-A103-7C8592140150}",
    "meta": [
     ["+ET","t_object"],
@@ -398,7 +436,7 @@
     ["+M","+ABS?","false"],
     ["+M","+ACT?","false"],
     ["+M","+FS?","false"],
-    ["+M","+N","Actor1"],
+    ["+M","+N","Actor2"],
     ["+M","+V","Public"]],
    "tval": [
     ["EA Specifics 1.0::Author","dsiegl"],
@@ -416,12 +454,12 @@
     ["EA Specifics 1.0::StyleEx",""],
     ["EA Specifics 1.0::Version","1.0"],
     ["Element Metadata 1.0::CreatedDate","2022-09-14T12:02:04Z"],
-    ["Element Metadata 1.0::ModifiedDate","2022-09-14T12:02:04Z"]],
+    ["Element Metadata 1.0::ModifiedDate","2022-09-14T12:07:30Z"]],
    "parent": "{0E01AA69-530E-4894-97B8-803883E8BCD7}",
    "sub": [
     "wRAkHvC2KCI6tAWGsPB+iqRYDmRoNNCCyZBFHnOlOik="]},
   {
-   "oid": "MloRZnqbYCRt0NQV3gPznx6E2LiUqcAZ+9KllNWzMAk=",
+   "oid": "UeHzZTCeGVCU8WRlaTF5I7xloU+4wfsPKWj+LKKFxrM=",
    "id": "{BD066965-744A-4edf-8053-3E708727F5A6}",
    "meta": [
     ["+ET","t_object"],
@@ -456,9 +494,11 @@
     ["EA Specifics 1.0::Version","1.0"],
     ["Element Metadata 1.0::CreatedDate","2022-09-14T12:02:02Z"],
     ["Element Metadata 1.0::ModifiedDate","2022-09-14T12:02:02Z"]],
-   "parent": "{0E01AA69-530E-4894-97B8-803883E8BCD7}"},
+   "parent": "{0E01AA69-530E-4894-97B8-803883E8BCD7}",
+   "sub": [
+    "HAAGKdJ8ugm2mjpbu9/ihz3yS5P9UIyTbJwhNN7sYwk="]},
   {
-   "oid": "cH6KT115mxNKJncSWewLSBUdWpak6KPL3kd2/Cweuts=",
+   "oid": "NUd6sDyb8hkN/sYCd1ZMU28tsFgSFH3wKQTIACZRZ8M=",
    "id": "{DA58D8BB-C80C-496e-9CA9-0E993AE863E2}",
    "meta": [
     ["Diagram_Type","Use Case"],
@@ -490,14 +530,16 @@
     ["EA Specifics 1.0::Swimlanes","locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;"],
     ["EA Specifics 1.0::Version","1.0"],
     ["Element Metadata 1.0::CreatedDate","2022-09-14T12:01:57Z"],
-    ["Element Metadata 1.0::ModifiedDate","2022-09-14T12:02:33Z"]],
+    ["Element Metadata 1.0::ModifiedDate","2022-09-14T12:07:42Z"]],
    "parent": "{0E01AA69-530E-4894-97B8-803883E8BCD7}",
    "sub": [
     "KZtVBDBR4SVRAB4/OY4bkdZYc9J8VefGUG391EzrnMY=",
     "SVt1JXowrO64ZLvuCMsS53LKfBA2tvRGnaI1mrsCXLw=",
-    "s3MPxCl2CVkJhIS241UoMenLYbpzC7yAOHtpo7ZDKHM="]},
+    "lomIlPCCRL9p9Jx0RUkbGztLfvN3TIOrp4i5DobR2Ag=",
+    "sz9Bb/nnpSjF+TP6OxepU1mEp7GHbOixgHtfABzE0f0=",
+    "+oqzSRe2dWQnKECmxpnRz9MyC+xLUXqFatvITlPf40Y="]},
   {
-   "oid": "jMUq0kCxUKxEh6FfIX33BXCMxDTatKlnhJF6s7sN1b0=",
+   "oid": "hoMvoXZb8655YpB/J5oaQLhlNi0JK43nFePkNK+4n3U=",
    "id": "{3553E0E9-3A22-4a98-8657-E142A6DFEC72}",
    "meta": [
     ["Diagram_Type","Custom"],
@@ -529,10 +571,10 @@
     ["EA Specifics 1.0::Swimlanes","locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;"],
     ["EA Specifics 1.0::Version","1.0"],
     ["Element Metadata 1.0::CreatedDate","2022-09-14T12:01:47Z"],
-    ["Element Metadata 1.0::ModifiedDate","2022-09-14T12:02:33Z"]],
+    ["Element Metadata 1.0::ModifiedDate","2022-09-14T12:07:42Z"]],
    "parent": "{F6C5C0C5-01C2-4e1b-AA20-974ACD2D71C2}",
    "sub": [
-    "28MWDxQ4QpuEqzu26F79XnMtUYu6DmyEMGX7kdwV+DY=",
+    "mbjKCRnsQuYxXOkPUtW9VVwGG6QAE+qcX4WiacuCab0=",
     "754XkCK8GzLbw3S0W5MuWOp9dxsKdAuq1Rd/Q/RbUHw=",
     "+CauvLMdngYmtAyW84K/2vCVdOD+MiO7wsDuiFhMRzQ="]},
   {
@@ -706,7 +748,7 @@
     "m3s62v+izTxJb+IBA2cK6hvAgW0ST2PMBDNmZGlq6O8=",
     "wQfTC+EC12rbFZrPyNAWQqOAJ6q2yh64aUGd470kY0g="]},
   {
-   "oid": "dxor1tmuIubDvD7Xq5ifFnw1c5fQNoNreojyHJlux1k=",
+   "oid": "M2DQW94B1Fk8E6Tq5dpBWorHo6z3FtOB0A1ukzU+ROY=",
    "id": "{6212849b-68e4-be04-0f4a-7cf59559fbe7}",
    "meta": [
     ["+ET","t_object"],
@@ -753,13 +795,13 @@
     "H5+Im6cS5afWaTufH3x7xsyiPVuY/twGXfOAsoe+lvA=",
     "RflLDUwlSsR9rENDr4LkQhuFJH/I7+bWNKxGAz3zc68=",
     "TEbFfTHtukP8LkEn5uoVllNMZvxf3AEVEYfV0JO3Gc0=",
-    "U6e1jD6GXgprjaVs4OlvSCLINOxfaZXs3CgPI9tjCE8=",
     "Wo+tBGweNPK9Ia6Ai4RNmq2j2+8ALolYry7rUcOueGc=",
     "j7Oi+rnTtHgqnw74rFjAKwKHDd3FSie98595NroQk+4=",
     "qeLu5vuybLgQ7OphERYdv1XbSgatNnsck9Xb5T3Lo7s=",
-    "xf+kDrFPi2BZ5aOH1Ar9a8XkTwB2dzs7/X3b4q+Xm78=",
     "yacCIaOw6YZeIqIjaquLV+0BzPRGbbwlsSk7oUt8RSo=",
-    "0oY5kxk1/OKzhNx/5aDJrOEN2EfJY/uNSMXoBJSMrms="]},
+    "0oY5kxk1/OKzhNx/5aDJrOEN2EfJY/uNSMXoBJSMrms=",
+    "9Rq+e5amtR8mUP3FwTmyzrEHlYQOeoA+dFVacFyrxuA=",
+    "+zmsNG8DT+qwBJAqjsBi1dYilI//2aSTcc6NNB1JGD8="]},
   {
    "oid": "wRAkHvC2KCI6tAWGsPB+iqRYDmRoNNCCyZBFHnOlOik=",
    "id": "{8CE4A4A3-E24C-42c1-9564-BFB15917F894}",
@@ -798,6 +840,68 @@
     "JQMsJ59SugHkjiUPua2kDrwkjY3ux/A9E9xtcVzN5z8=",
     "WFIyT5zsuJ7u0uBeU7HF+wX5Z1DeRZcLmHGN5teWUCU="]},
   {
+   "oid": "HAAGKdJ8ugm2mjpbu9/ihz3yS5P9UIyTbJwhNN7sYwk=",
+   "id": "{F850FFF2-EFE8-4714-BB8E-30C2AA4F47B0}",
+   "meta": [
+    ["Connector_Type","Generalization"],
+    ["+ET","t_connector"],
+    ["+EY","Generalization"],
+    ["+ST",""],
+    ["SubType",""],
+    ["+UT","Generalization"]],
+   "prop": [
+    ["+X","+A",""],
+    ["+M","+D",""],
+    ["+M","+N",""],
+    ["+M","+V","Public"]],
+   "tval": [
+    ["EA Specifics 1.0::End_Edge","0"],
+    ["EA Specifics 1.0::IsBold","0"],
+    ["EA Specifics 1.0::LineColor","-1"],
+    ["EA Specifics 1.0::OwningDiagram",""],
+    ["EA Specifics 1.0::PDATA5","SX=0;SY=0;EX=0;EY=0;"],
+    ["EA Specifics 1.0::PtEndX","0"],
+    ["EA Specifics 1.0::PtEndY","0"],
+    ["EA Specifics 1.0::PtStartX","0"],
+    ["EA Specifics 1.0::PtStartY","0"],
+    ["EA Specifics 1.0::RouteStyle","3"],
+    ["EA Specifics 1.0::SeqNo","0"],
+    ["EA Specifics 1.0::Start_Edge","0"],
+    ["EA Specifics 1.0::StateFlags",""],
+    ["EA Specifics 1.0::Target2",""]],
+   "parent": "{BD066965-744A-4edf-8053-3E708727F5A6}",
+   "ref": [
+    ["{5E734959-E0DE-42cb-BEBD-7952FE0F3A60}","Target",17],
+    ["{BD066965-744A-4edf-8053-3E708727F5A6}","Source",17]],
+   "sub": [
+    "fBCokDcXsR/5obKPWy4x2abqubtqpqvQmCk4anohmDQ=",
+    "xzEO9VFp/8+OUAlGZ24BYcSdmfKYBn4s7qL6f9vjdgA="]},
+  {
+   "oid": "lomIlPCCRL9p9Jx0RUkbGztLfvN3TIOrp4i5DobR2Ag=",
+   "id": "{42380d83-1c65-d77e-197c-fc0c07b0940d}",
+   "meta": [
+    ["+ET","t_diagramobjects"],
+    ["+EY","DiagramObject"],
+    ["+UT","ea_DiagramObject"]],
+   "prop": [
+    ["+X","+A",""],
+    ["+M","+D",""],
+    ["+X","Hyperlink",""],
+    ["+M","+N",""],
+    ["+M","RectBottom","-311"],
+    ["+M","RectLeft","97"],
+    ["+M","RectRight","202"],
+    ["+M","RectTop","-241"],
+    ["+M","+V","Public"],
+    ["+M","ZOrder","1"]],
+   "tval": [
+    ["EA Specifics 1.0::ObjectStyle::DUID","12450F79"]],
+   "parent": "{DA58D8BB-C80C-496e-9CA9-0E993AE863E2}",
+   "ref": [
+    ["{5E734959-E0DE-42cb-BEBD-7952FE0F3A60}","Represents",889],
+    ["{DA58D8BB-C80C-496e-9CA9-0E993AE863E2}","DiagramIntegralFeature",32],
+    ["{DA58D8BB-C80C-496e-9CA9-0E993AE863E2}","UpdateDiagramobjects",8]]},
+  {
    "oid": "KZtVBDBR4SVRAB4/OY4bkdZYc9J8VefGUG391EzrnMY=",
    "id": "{a514a382-c1eb-782e-f9d6-e4038f74d9e5}",
    "meta": [
@@ -818,6 +922,27 @@
    "ref": [
     ["{8CE4A4A3-E24C-42c1-9564-BFB15917F894}","Represents",889],
     ["{DA58D8BB-C80C-496e-9CA9-0E993AE863E2}","DiagramIntegralFeature",32]]},
+  {
+   "oid": "+oqzSRe2dWQnKECmxpnRz9MyC+xLUXqFatvITlPf40Y=",
+   "id": "{ccd4a27d-4e9a-c4ca-5795-bb662a67ca86}",
+   "meta": [
+    ["+ET","t_diagramlinks"],
+    ["+EY","DiagramLink"],
+    ["+UT","ea_DiagramLink"]],
+   "prop": [
+    ["+X","+A",""],
+    ["+M","+D",""],
+    ["+X","IsHidden","false"],
+    ["+M","+N",""],
+    ["+M","+V","Public"]],
+   "tval": [
+    ["EA Specifics 1.0::Geometry","SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;"],
+    ["EA Specifics 1.0::Path",""],
+    ["EA Specifics 1.0::Style","Mode=3;EOID=12450F79;SOID=F00C7899;Color=-1;LWidth=0;"]],
+   "parent": "{DA58D8BB-C80C-496e-9CA9-0E993AE863E2}",
+   "ref": [
+    ["{DA58D8BB-C80C-496e-9CA9-0E993AE863E2}","DiagramIntegralFeature",32],
+    ["{F850FFF2-EFE8-4714-BB8E-30C2AA4F47B0}","Represents",889]]},
   {
    "oid": "SVt1JXowrO64ZLvuCMsS53LKfBA2tvRGnaI1mrsCXLw=",
    "id": "{ef8a4af8-8ecb-c073-d558-d0f7f3d04f2a}",
@@ -844,7 +969,7 @@
     ["{DA58D8BB-C80C-496e-9CA9-0E993AE863E2}","DiagramIntegralFeature",32],
     ["{DA58D8BB-C80C-496e-9CA9-0E993AE863E2}","UpdateDiagramobjects",8]]},
   {
-   "oid": "s3MPxCl2CVkJhIS241UoMenLYbpzC7yAOHtpo7ZDKHM=",
+   "oid": "sz9Bb/nnpSjF+TP6OxepU1mEp7GHbOixgHtfABzE0f0=",
    "id": "{f7256786-c2f6-9469-4d10-55d8513d0dd3}",
    "meta": [
     ["+ET","t_diagramobjects"],
@@ -855,10 +980,10 @@
     ["+M","+D",""],
     ["+X","Hyperlink",""],
     ["+M","+N",""],
-    ["+M","RectBottom","-140"],
-    ["+M","RectLeft","152"],
-    ["+M","RectRight","257"],
-    ["+M","RectTop","-70"],
+    ["+M","RectBottom","-192"],
+    ["+M","RectLeft","142"],
+    ["+M","RectRight","247"],
+    ["+M","RectTop","-122"],
     ["+M","+V","Public"],
     ["+M","ZOrder","1"]],
    "tval": [
@@ -869,7 +994,7 @@
     ["{DA58D8BB-C80C-496e-9CA9-0E993AE863E2}","DiagramIntegralFeature",32],
     ["{DA58D8BB-C80C-496e-9CA9-0E993AE863E2}","UpdateDiagramobjects",8]]},
   {
-   "oid": "28MWDxQ4QpuEqzu26F79XnMtUYu6DmyEMGX7kdwV+DY=",
+   "oid": "mbjKCRnsQuYxXOkPUtW9VVwGG6QAE+qcX4WiacuCab0=",
    "id": "{538e4511-019b-3d8c-8dcf-c7c8920879b3}",
    "meta": [
     ["+ET","t_diagramobjects"],
@@ -880,10 +1005,10 @@
     ["+M","+D",""],
     ["+X","Hyperlink",""],
     ["+M","+N",""],
-    ["+M","RectBottom","-153"],
-    ["+M","RectLeft","158"],
-    ["+M","RectRight","268"],
-    ["+M","RectTop","-109"],
+    ["+M","RectBottom","-173"],
+    ["+M","RectLeft","161"],
+    ["+M","RectRight","271"],
+    ["+M","RectTop","-129"],
     ["+M","+V","Public"],
     ["+M","ZOrder","1"]],
    "tval": [
@@ -1124,7 +1249,7 @@
     ["EA Specifics 1.0::TypeString","String"]],
    "parent": "{6212849b-68e4-be04-0f4a-7cf59559fbe7}"},
   {
-   "oid": "U6e1jD6GXgprjaVs4OlvSCLINOxfaZXs3CgPI9tjCE8=",
+   "oid": "9Rq+e5amtR8mUP3FwTmyzrEHlYQOeoA+dFVacFyrxuA=",
    "id": "{620f0904-4b78-0953-6ff5-b42236823aa5}",
    "meta": [
     ["+ET","t_attribute"],
@@ -1134,7 +1259,7 @@
    "prop": [
     ["+M","AggregationKind","None"],
     ["+X","+A",""],
-    ["+M","DefaultValue","bbf1ababe65f4c517c511c832fdf4d0aa8270ae4f77207d348f26b0dee53b9ef"],
+    ["+M","DefaultValue","2b179cd12fecf92007bd49d680945cbc4974d1cf9b1d710f7273d455ba3c9116"],
     ["+M","+D",""],
     ["+X","IsID","false"],
     ["+M","IsNavigable","false"],
@@ -1244,7 +1369,7 @@
     ["EA Specifics 1.0::TypeString","String"]],
    "parent": "{6212849b-68e4-be04-0f4a-7cf59559fbe7}"},
   {
-   "oid": "xf+kDrFPi2BZ5aOH1Ar9a8XkTwB2dzs7/X3b4q+Xm78=",
+   "oid": "+zmsNG8DT+qwBJAqjsBi1dYilI//2aSTcc6NNB1JGD8=",
    "id": "{d3ef4366-6218-fbfc-09d8-35502596768b}",
    "meta": [
     ["+ET","t_attribute"],
@@ -1254,7 +1379,7 @@
    "prop": [
     ["+M","AggregationKind","None"],
     ["+X","+A",""],
-    ["+M","DefaultValue","{992F64E7-7F0D-4e59-9AE5-337AB448DBCD}:25b7840355171211863144fbca264c06d66ecaf8b5eaaf2e7a38931a43331a7e"],
+    ["+M","DefaultValue","{992F64E7-7F0D-4e59-9AE5-337AB448DBCD}:0badcf3ec44d598e905f9395a7188ca50d220a01a5a4c70d622da8c41821498e"],
     ["+M","+D",""],
     ["+X","IsID","false"],
     ["+M","IsNavigable","false"],
@@ -1458,6 +1583,70 @@
    "ref": [
     ["{8A4E1178-0E84-4666-A103-7C8592140150}","ConnectedObject",17],
     ["{8A4E1178-0E84-4666-A103-7C8592140150}","Type",24],
-    ["{8CE4A4A3-E24C-42c1-9564-BFB15917F894}","SourceConnectorEndOwner",55]]}
+    ["{8CE4A4A3-E24C-42c1-9564-BFB15917F894}","SourceConnectorEndOwner",55]]},
+  {
+   "oid": "fBCokDcXsR/5obKPWy4x2abqubtqpqvQmCk4anohmDQ=",
+   "id": "{44aea8a7-7a79-a299-7951-44ef317ec1c2}",
+   "meta": [
+    ["Connector_Type","Generalization"],
+    ["+ET","t_connector"],
+    ["+EY","ConnectorEnd"],
+    ["IsConnectorEnd","true"],
+    ["+UT","ConnectorEnd"]],
+   "prop": [
+    ["+M","AggregationKind","None"],
+    ["+X","+A",""],
+    ["+M","DefaultValue",""],
+    ["+M","+D",""],
+    ["+M","IsNavigable","false"],
+    ["+M","IsReadOnly","false"],
+    ["+M","IsStatic","false"],
+    ["+M","LowerBound",""],
+    ["+M","+N",""],
+    ["+X","PropertyKind","AssociationEnd"],
+    ["+M","UpperBound",""],
+    ["+M","+V","Public"]],
+   "tval": [
+    ["EA Specifics 1.0::SourceStyle::AllowDuplicates","0"],
+    ["EA Specifics 1.0::SourceStyle::Derived","0"],
+    ["EA Specifics 1.0::SourceStyle::Navigable",""],
+    ["EA Specifics 1.0::SourceStyle::Union","0"]],
+   "parent": "{F850FFF2-EFE8-4714-BB8E-30C2AA4F47B0}",
+   "ref": [
+    ["{BD066965-744A-4edf-8053-3E708727F5A6}","ConnectedObject",17],
+    ["{BD066965-744A-4edf-8053-3E708727F5A6}","Type",24],
+    ["{F850FFF2-EFE8-4714-BB8E-30C2AA4F47B0}","SourceConnectorEndOwner",55]]},
+  {
+   "oid": "xzEO9VFp/8+OUAlGZ24BYcSdmfKYBn4s7qL6f9vjdgA=",
+   "id": "{d0128ad7-c448-acdb-4afb-5375247e96c8}",
+   "meta": [
+    ["Connector_Type","Generalization"],
+    ["+ET","t_connector"],
+    ["+EY","ConnectorEnd"],
+    ["IsConnectorEnd","true"],
+    ["+UT","ConnectorEnd"]],
+   "prop": [
+    ["+M","AggregationKind","None"],
+    ["+X","+A",""],
+    ["+M","DefaultValue",""],
+    ["+M","+D",""],
+    ["+M","IsNavigable","true"],
+    ["+M","IsReadOnly","false"],
+    ["+M","IsStatic","false"],
+    ["+M","LowerBound",""],
+    ["+M","+N",""],
+    ["+X","PropertyKind","AssociationEnd"],
+    ["+M","UpperBound",""],
+    ["+M","+V","Public"]],
+   "tval": [
+    ["EA Specifics 1.0::DestStyle::AllowDuplicates","0"],
+    ["EA Specifics 1.0::DestStyle::Derived","0"],
+    ["EA Specifics 1.0::DestStyle::Navigable",""],
+    ["EA Specifics 1.0::DestStyle::Union","0"]],
+   "parent": "{F850FFF2-EFE8-4714-BB8E-30C2AA4F47B0}",
+   "ref": [
+    ["{5E734959-E0DE-42cb-BEBD-7952FE0F3A60}","ConnectedObject",17],
+    ["{5E734959-E0DE-42cb-BEBD-7952FE0F3A60}","Type",24],
+    ["{F850FFF2-EFE8-4714-BB8E-30C2AA4F47B0}","TargetConnectorEndOwner",55]]}
  ]
 }

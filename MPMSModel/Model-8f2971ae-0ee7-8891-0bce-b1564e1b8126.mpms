@@ -1,19 +1,16 @@
-﻿//version: 3 (UM: 10.2.2.0)
-//{"ReadOnly":false,"Name":"Model","Guid":"{8f2971ae-0ee7-8891-0bce-b1564e1b8126}","Description":"1","Authors":"","Owners":"","ReleaseNotes":"","Copyright":"","Tags":"","Version":"A","OID":"0fdd5cd52c66eb152d97a23dcf1c1496ac973867de2c694184835339e938fb6b","Status":0,"Dependencies":[],"ModelPackageInfo":"{992F64E7-7F0D-4e59-9AE5-337AB448DBCD}:57ba5bb3307c497b6a6170b2d5f7229e3d158cbe10789d6000396373e0d69916"}
-//format: Raw
-{
+﻿{
  "version": "10.2.2.0",
  "objects": [
   {
-   "oid": "Z8GNIs/SF/M1RLTco+qEP0yPkkDc4Ko+acoBkAXvemE=",
+   "oid": "Q1NJUVTNiRLB4lMjgli+dNFLCrrm88ynLZPyRn9NC94=",
    "id": "{f9fc01f0-54d4-5166-9927-fa28ac44ca60}",
    "meta": [],
    "prop": [],
    "sub": [
     "I7lFAvBkPsjVlBaT/gUbJdYkhXOEfZtMcPhIWSQGlK0=",
-    "T4qBwZPmdPeZsK7qw0D6XLPYhyaCUuEdr05PvcjHo4s=",
     "jMcstDTw/IFWOsXewHeFS486gwhJ91xOhJDDa/Lx2G0=",
-    "y8RE6uTv414PsLenHy21YGqz+kbd6+iNRHDmJrNr74Y="]},
+    "y8RE6uTv414PsLenHy21YGqz+kbd6+iNRHDmJrNr74Y=",
+    "+WdpKR3bn01ERLIJCEY2kBAwkJc7bcvnNXwCbpDAtaM="]},
   {
    "oid": "jMcstDTw/IFWOsXewHeFS486gwhJ91xOhJDDa/Lx2G0=",
    "id": "{1C7F10E3-7B3B-44F5-8954-A99BA9CFD3BA}",
@@ -58,7 +55,7 @@
     "KqKJ8V7kVkiKrYDWW+jNUlNRpV8CDVyoXqQnQcodN+0=",
     "Ozwl4hiWoorlHF5+aUNG5OMa2bvOi1F6nOXIT7GpCuM="]},
   {
-   "oid": "T4qBwZPmdPeZsK7qw0D6XLPYhyaCUuEdr05PvcjHo4s=",
+   "oid": "+WdpKR3bn01ERLIJCEY2kBAwkJc7bcvnNXwCbpDAtaM=",
    "id": "{992F64E7-7F0D-4e59-9AE5-337AB448DBCD}",
    "meta": [
     ["+ET","t_package"],
@@ -85,7 +82,7 @@
     ["Element Metadata 1.0::ModifiedDate",""]],
    "parent": "{f9fc01f0-54d4-5166-9927-fa28ac44ca60}",
    "sub": [
-    "xXlVafOAHG4WM3VTb3VrMpGtnonjqmourwvdFTeZll0=",
+    "HYJpIR0UqD8oPbQoJ9jHOo5ctBm6hdjD4gRviL+GXsU=",
     "zKMB6mjLIH0f69IPTl3J0+SJ/2UO/vG2c/ZIOMupTvw="]},
   {
    "oid": "y8RE6uTv414PsLenHy21YGqz+kbd6+iNRHDmJrNr74Y=",
@@ -217,7 +214,7 @@
    "sub": [
     "NRPKEzA3vD71ZEfIdEw0vpPhdt/1Lq78cyIzk0PyZfU="]},
   {
-   "oid": "xXlVafOAHG4WM3VTb3VrMpGtnonjqmourwvdFTeZll0=",
+   "oid": "HYJpIR0UqD8oPbQoJ9jHOo5ctBm6hdjD4gRviL+GXsU=",
    "id": "{0E01AA69-530E-4894-97B8-803883E8BCD7}",
    "meta": [
     ["+ET","t_package"],
@@ -247,9 +244,10 @@
    "parent": "{992F64E7-7F0D-4e59-9AE5-337AB448DBCD}",
    "sub": [
     "HaEgmM2ROK28eCle+/DaZZYjrkVCwSEEFt+pEh1wbAk=",
-    "UeHzZTCeGVCU8WRlaTF5I7xloU+4wfsPKWj+LKKFxrM=",
+    "L3zJLMHDKRXbYAAdzb6BAkBmwJ8fQI14I+3bKA8Iz4M=",
     "YTDlMHqn6i6rtTGOi1hJaY59UflbFbgMVAFl00Hz2GE=",
-    "ihufJ8J57sXjpJR7nA3GUwJEYvrNkLgxi5wjVSod+a8=",
+    "cdI/NwqZDy7XE1b5UxxECCPelOaUf2Yk+3SCT+mP9Z4=",
+    "vcYJQBuANRoXie5ImWcXb1i8RMJmk3D1ZzXZ5yWaaqw=",
     "8YcHOvryEkxsqtRpMfFzYIO6fBSj5CTZMk/xrEktYfA="]},
   {
    "oid": "zKMB6mjLIH0f69IPTl3J0+SJ/2UO/vG2c/ZIOMupTvw=",
@@ -385,6 +383,46 @@
     ["EA Specifics 1.0::Profile::metatype",""]],
    "parent": "{b51fc2d5-e726-9154-bf27-87bb53a85bd8}"},
   {
+   "oid": "cdI/NwqZDy7XE1b5UxxECCPelOaUf2Yk+3SCT+mP9Z4=",
+   "id": "{415C4BDA-7FB7-41ed-8401-A0A8B4C08143}",
+   "meta": [
+    ["+ET","t_object"],
+    ["+EY","Actor"],
+    ["+NT","0"],
+    ["+OT","Actor"],
+    ["+ST",""],
+    ["+UT","Actor"]],
+   "prop": [
+    ["+X","+A",""],
+    ["+M","+D",""],
+    ["+X","+CD?","false"],
+    ["+M","+ABS?","false"],
+    ["+M","+ACT?","false"],
+    ["+M","+FS?","false"],
+    ["+M","+N","Actor3"],
+    ["+M","+V","Public"]],
+   "tval": [
+    ["EA Specifics 1.0::Author","dsiegl"],
+    ["EA Specifics 1.0::Backcolor","-1"],
+    ["EA Specifics 1.0::BorderStyle","0"],
+    ["EA Specifics 1.0::BorderWidth","-1"],
+    ["EA Specifics 1.0::Bordercolor","-1"],
+    ["EA Specifics 1.0::Complexity","1"],
+    ["EA Specifics 1.0::Fontcolor","-1"],
+    ["EA Specifics 1.0::Language","<none>"],
+    ["EA Specifics 1.0::Phase","1.0"],
+    ["EA Specifics 1.0::Pos",""],
+    ["EA Specifics 1.0::Status","Proposed"],
+    ["EA Specifics 1.0::Style",""],
+    ["EA Specifics 1.0::StyleEx",""],
+    ["EA Specifics 1.0::Version","1.0"],
+    ["Element Metadata 1.0::CreatedDate","2022-09-14T13:08:00Z"],
+    ["Element Metadata 1.0::ModifiedDate","2022-09-14T13:08:00Z"]],
+   "parent": "{0E01AA69-530E-4894-97B8-803883E8BCD7}",
+   "sub": [
+    "JZ1pCFVbdmNUAQlZq6jOtatesNa2QTiV4muUuNeIJmY=",
+    "po+kMX39mDtfcqVOCaG1xOxGXBwsJ8z3mdSBih46w00="]},
+  {
    "oid": "HaEgmM2ROK28eCle+/DaZZYjrkVCwSEEFt+pEh1wbAk=",
    "id": "{4BD42A72-6B59-4f35-A2A6-826F790331AC}",
    "meta": [
@@ -500,7 +538,7 @@
    "sub": [
     "wRAkHvC2KCI6tAWGsPB+iqRYDmRoNNCCyZBFHnOlOik="]},
   {
-   "oid": "UeHzZTCeGVCU8WRlaTF5I7xloU+4wfsPKWj+LKKFxrM=",
+   "oid": "L3zJLMHDKRXbYAAdzb6BAkBmwJ8fQI14I+3bKA8Iz4M=",
    "id": "{BD066965-744A-4edf-8053-3E708727F5A6}",
    "meta": [
     ["+ET","t_object"],
@@ -516,7 +554,7 @@
     ["+M","+ABS?","false"],
     ["+M","+ACT?","false"],
     ["+M","+FS?","false"],
-    ["+M","+N","Use Case1"],
+    ["+M","+N","Use Case1 4434"],
     ["+M","+V","Public"]],
    "tval": [
     ["EA Specifics 1.0::Author","dsiegl"],
@@ -534,12 +572,12 @@
     ["EA Specifics 1.0::StyleEx",""],
     ["EA Specifics 1.0::Version","1.0"],
     ["Element Metadata 1.0::CreatedDate","2022-09-14T12:02:02Z"],
-    ["Element Metadata 1.0::ModifiedDate","2022-09-14T12:02:02Z"]],
+    ["Element Metadata 1.0::ModifiedDate","2022-09-14T13:08:17Z"]],
    "parent": "{0E01AA69-530E-4894-97B8-803883E8BCD7}",
    "sub": [
     "HAAGKdJ8ugm2mjpbu9/ihz3yS5P9UIyTbJwhNN7sYwk="]},
   {
-   "oid": "ihufJ8J57sXjpJR7nA3GUwJEYvrNkLgxi5wjVSod+a8=",
+   "oid": "vcYJQBuANRoXie5ImWcXb1i8RMJmk3D1ZzXZ5yWaaqw=",
    "id": "{DA58D8BB-C80C-496e-9CA9-0E993AE863E2}",
    "meta": [
     ["Diagram_Type","Use Case"],
@@ -575,11 +613,14 @@
    "parent": "{0E01AA69-530E-4894-97B8-803883E8BCD7}",
    "sub": [
     "KZtVBDBR4SVRAB4/OY4bkdZYc9J8VefGUG391EzrnMY=",
+    "NBgKU1aUfB6n0ZdARcSj86REjeCCBsG7K92RKDLBVNk=",
     "SVt1JXowrO64ZLvuCMsS53LKfBA2tvRGnaI1mrsCXLw=",
     "WkW37t4nyUpoY/REuHXthpW8Et9YBpqcG96du8wxDyk=",
+    "cKvXLj7lJpr+4RvtqzxctnSem1doTKUe7DXiJj5CH/4=",
     "lomIlPCCRL9p9Jx0RUkbGztLfvN3TIOrp4i5DobR2Ag=",
     "r0Jg+5+NzJHC+eR/0+j70wxqSyZhd4jAQHcEaDH3j8Q=",
     "sz9Bb/nnpSjF+TP6OxepU1mEp7GHbOixgHtfABzE0f0=",
+    "4Ls5amQrgfj8GbN8SUb7VPCGjjRsHrilVWYr8SRWkcA=",
     "+oqzSRe2dWQnKECmxpnRz9MyC+xLUXqFatvITlPf40Y="]},
   {
    "oid": "0bu1E9ghzR9WgmET5K6B200nQM+h6jz61JADNUPmM6A=",
@@ -889,6 +930,80 @@
     "yacCIaOw6YZeIqIjaquLV+0BzPRGbbwlsSk7oUt8RSo=",
     "0oY5kxk1/OKzhNx/5aDJrOEN2EfJY/uNSMXoBJSMrms="]},
   {
+   "oid": "po+kMX39mDtfcqVOCaG1xOxGXBwsJ8z3mdSBih46w00=",
+   "id": "{CC932803-F947-4323-8686-FFF429EB715E}",
+   "meta": [
+    ["Connector_Type","Association"],
+    ["+ET","t_connector"],
+    ["+EY","Association"],
+    ["+ST",""],
+    ["SubType",""],
+    ["+UT","Association"]],
+   "prop": [
+    ["+X","+A",""],
+    ["+M","+D",""],
+    ["+M","+N",""],
+    ["+M","+V","Public"]],
+   "tval": [
+    ["EA Specifics 1.0::End_Edge","0"],
+    ["EA Specifics 1.0::IsBold","0"],
+    ["EA Specifics 1.0::LineColor","-1"],
+    ["EA Specifics 1.0::OwningDiagram",""],
+    ["EA Specifics 1.0::PDATA5","SX=0;SY=0;EX=0;EY=0;"],
+    ["EA Specifics 1.0::PtEndX","0"],
+    ["EA Specifics 1.0::PtEndY","0"],
+    ["EA Specifics 1.0::PtStartX","0"],
+    ["EA Specifics 1.0::PtStartY","0"],
+    ["EA Specifics 1.0::RouteStyle","3"],
+    ["EA Specifics 1.0::SeqNo","0"],
+    ["EA Specifics 1.0::Start_Edge","0"],
+    ["EA Specifics 1.0::StateFlags",""],
+    ["EA Specifics 1.0::Target2",""]],
+   "parent": "{415C4BDA-7FB7-41ed-8401-A0A8B4C08143}",
+   "ref": [
+    ["{415C4BDA-7FB7-41ed-8401-A0A8B4C08143}","Source",17],
+    ["{BD066965-744A-4edf-8053-3E708727F5A6}","Target",17]],
+   "sub": [
+    "cNWrWs6ZO4TXpfbZ1TSLaQ1yjJnCC1EzcxIzY9SIYlY=",
+    "kM1TGOEYfheE1PVJa8zJKRsPeRGwnZmevu+eO1VYgLU="]},
+  {
+   "oid": "JZ1pCFVbdmNUAQlZq6jOtatesNa2QTiV4muUuNeIJmY=",
+   "id": "{E407192D-E468-401b-820B-FCE2EB0C7EC5}",
+   "meta": [
+    ["Connector_Type","Abstraction"],
+    ["+ET","t_connector"],
+    ["+EY","Abstraction"],
+    ["+ST",""],
+    ["SubType",""],
+    ["+UT","Abstraction"]],
+   "prop": [
+    ["+X","+A",""],
+    ["+M","+D",""],
+    ["+M","+N",""],
+    ["+M","+V","Public"]],
+   "tval": [
+    ["EA Specifics 1.0::End_Edge","0"],
+    ["EA Specifics 1.0::IsBold","0"],
+    ["EA Specifics 1.0::LineColor","-1"],
+    ["EA Specifics 1.0::OwningDiagram",""],
+    ["EA Specifics 1.0::PDATA5","SX=0;SY=0;EX=0;EY=0;"],
+    ["EA Specifics 1.0::PtEndX","0"],
+    ["EA Specifics 1.0::PtEndY","0"],
+    ["EA Specifics 1.0::PtStartX","0"],
+    ["EA Specifics 1.0::PtStartY","0"],
+    ["EA Specifics 1.0::RouteStyle","3"],
+    ["EA Specifics 1.0::SeqNo","0"],
+    ["EA Specifics 1.0::Start_Edge","0"],
+    ["EA Specifics 1.0::StateFlags",""],
+    ["EA Specifics 1.0::Target2",""]],
+   "parent": "{415C4BDA-7FB7-41ed-8401-A0A8B4C08143}",
+   "ref": [
+    ["{415C4BDA-7FB7-41ed-8401-A0A8B4C08143}","Source",17],
+    ["{BD066965-744A-4edf-8053-3E708727F5A6}","Target",17]],
+   "sub": [
+    "bzaa9crSZVlEfOpEhzRi5brnLZjORiqub5IzumFT+4I=",
+    "8I7rj1UG6HdFAtnLYBpPNccjRyHSF7UD6Tpe4weM2KY="]},
+  {
    "oid": "6dUrpmqjj/o8501EDHiLvoLo7xU6MbCzpqA7woMhqYQ=",
    "id": "{D5E0956B-FC9C-4576-A937-C0FDD2D8DFB0}",
    "meta": [
@@ -1000,6 +1115,27 @@
     "fBCokDcXsR/5obKPWy4x2abqubtqpqvQmCk4anohmDQ=",
     "xzEO9VFp/8+OUAlGZ24BYcSdmfKYBn4s7qL6f9vjdgA="]},
   {
+   "oid": "4Ls5amQrgfj8GbN8SUb7VPCGjjRsHrilVWYr8SRWkcA=",
+   "id": "{1b0d1b5e-b81e-034c-8cf9-c34f71a9a5e0}",
+   "meta": [
+    ["+ET","t_diagramlinks"],
+    ["+EY","DiagramLink"],
+    ["+UT","ea_DiagramLink"]],
+   "prop": [
+    ["+X","+A",""],
+    ["+M","+D",""],
+    ["+X","IsHidden","false"],
+    ["+M","+N",""],
+    ["+M","+V","Public"]],
+   "tval": [
+    ["EA Specifics 1.0::Geometry","SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=CX=55:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;"],
+    ["EA Specifics 1.0::Path",""],
+    ["EA Specifics 1.0::Style","Mode=3;EOID=F00C7899;SOID=A88B069B;Color=-1;LWidth=0;"]],
+   "parent": "{DA58D8BB-C80C-496e-9CA9-0E993AE863E2}",
+   "ref": [
+    ["{DA58D8BB-C80C-496e-9CA9-0E993AE863E2}","DiagramIntegralFeature",32],
+    ["{E407192D-E468-401b-820B-FCE2EB0C7EC5}","Represents",889]]},
+  {
    "oid": "WkW37t4nyUpoY/REuHXthpW8Et9YBpqcG96du8wxDyk=",
    "id": "{3ae3061d-f35d-5f55-c4f2-1e3da7be1cd9}",
    "meta": [
@@ -1047,6 +1183,52 @@
    "parent": "{DA58D8BB-C80C-496e-9CA9-0E993AE863E2}",
    "ref": [
     ["{5E734959-E0DE-42cb-BEBD-7952FE0F3A60}","Represents",889],
+    ["{DA58D8BB-C80C-496e-9CA9-0E993AE863E2}","DiagramIntegralFeature",32],
+    ["{DA58D8BB-C80C-496e-9CA9-0E993AE863E2}","UpdateDiagramobjects",8]]},
+  {
+   "oid": "cKvXLj7lJpr+4RvtqzxctnSem1doTKUe7DXiJj5CH/4=",
+   "id": "{61e3707d-ab90-fe33-a8c2-cd5dc64e78bb}",
+   "meta": [
+    ["+ET","t_diagramlinks"],
+    ["+EY","DiagramLink"],
+    ["+UT","ea_DiagramLink"]],
+   "prop": [
+    ["+X","+A",""],
+    ["+M","+D",""],
+    ["+X","IsHidden","false"],
+    ["+M","+N",""],
+    ["+M","+V","Public"]],
+   "tval": [
+    ["EA Specifics 1.0::Geometry","SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;"],
+    ["EA Specifics 1.0::Path",""],
+    ["EA Specifics 1.0::Style","Mode=3;EOID=F00C7899;SOID=A88B069B;Color=-1;LWidth=0;"]],
+   "parent": "{DA58D8BB-C80C-496e-9CA9-0E993AE863E2}",
+   "ref": [
+    ["{CC932803-F947-4323-8686-FFF429EB715E}","Represents",889],
+    ["{DA58D8BB-C80C-496e-9CA9-0E993AE863E2}","DiagramIntegralFeature",32]]},
+  {
+   "oid": "NBgKU1aUfB6n0ZdARcSj86REjeCCBsG7K92RKDLBVNk=",
+   "id": "{62635fef-4bc1-fa8e-5b4a-369262b2f1d2}",
+   "meta": [
+    ["+ET","t_diagramobjects"],
+    ["+EY","DiagramObject"],
+    ["+UT","ea_DiagramObject"]],
+   "prop": [
+    ["+X","+A",""],
+    ["+M","+D",""],
+    ["+X","Hyperlink",""],
+    ["+M","+N",""],
+    ["+M","RectBottom","-107"],
+    ["+M","RectLeft","163"],
+    ["+M","RectRight","208"],
+    ["+M","RectTop","-17"],
+    ["+M","+V","Public"],
+    ["+M","ZOrder","1"]],
+   "tval": [
+    ["EA Specifics 1.0::ObjectStyle::DUID","A88B069B"]],
+   "parent": "{DA58D8BB-C80C-496e-9CA9-0E993AE863E2}",
+   "ref": [
+    ["{415C4BDA-7FB7-41ed-8401-A0A8B4C08143}","Represents",889],
     ["{DA58D8BB-C80C-496e-9CA9-0E993AE863E2}","DiagramIntegralFeature",32],
     ["{DA58D8BB-C80C-496e-9CA9-0E993AE863E2}","UpdateDiagramobjects",8]]},
   {
@@ -1712,6 +1894,138 @@
     ["EA Specifics 1.0::StyleEx",""],
     ["EA Specifics 1.0::TypeString","String"]],
    "parent": "{6212849b-68e4-be04-0f4a-7cf59559fbe7}"},
+  {
+   "oid": "cNWrWs6ZO4TXpfbZ1TSLaQ1yjJnCC1EzcxIzY9SIYlY=",
+   "id": "{932fba33-9c3c-c53b-8abb-fa3d9d4a8c68}",
+   "meta": [
+    ["Connector_Type","Association"],
+    ["+ET","t_connector"],
+    ["+EY","ConnectorEnd"],
+    ["IsConnectorEnd","true"],
+    ["+UT","Property"]],
+   "prop": [
+    ["+M","AggregationKind","None"],
+    ["+X","+A",""],
+    ["+M","DefaultValue",""],
+    ["+M","+D",""],
+    ["+M","IsNavigable","false"],
+    ["+M","IsReadOnly","false"],
+    ["+M","IsStatic","false"],
+    ["+M","LowerBound",""],
+    ["+M","+N",""],
+    ["+X","PropertyKind","AssociationEnd"],
+    ["+M","UpperBound",""],
+    ["+M","+V","Public"]],
+   "tval": [
+    ["EA Specifics 1.0::SourceStyle::AllowDuplicates","0"],
+    ["EA Specifics 1.0::SourceStyle::Derived","0"],
+    ["EA Specifics 1.0::SourceStyle::Navigable","Unspecified"],
+    ["EA Specifics 1.0::SourceStyle::Owned","0"],
+    ["EA Specifics 1.0::SourceStyle::Union","0"]],
+   "parent": "{CC932803-F947-4323-8686-FFF429EB715E}",
+   "ref": [
+    ["{415C4BDA-7FB7-41ed-8401-A0A8B4C08143}","ConnectedObject",17],
+    ["{415C4BDA-7FB7-41ed-8401-A0A8B4C08143}","Type",24],
+    ["{CC932803-F947-4323-8686-FFF429EB715E}","SourceConnectorEndOwner",55]]},
+  {
+   "oid": "kM1TGOEYfheE1PVJa8zJKRsPeRGwnZmevu+eO1VYgLU=",
+   "id": "{99dcab73-5a52-64cc-4cc8-57c83fc7e912}",
+   "meta": [
+    ["Connector_Type","Association"],
+    ["+ET","t_connector"],
+    ["+EY","ConnectorEnd"],
+    ["IsConnectorEnd","true"],
+    ["+UT","Property"]],
+   "prop": [
+    ["+M","AggregationKind","None"],
+    ["+X","+A",""],
+    ["+M","DefaultValue",""],
+    ["+M","+D",""],
+    ["+M","IsNavigable","false"],
+    ["+M","IsReadOnly","false"],
+    ["+M","IsStatic","false"],
+    ["+M","LowerBound",""],
+    ["+M","+N",""],
+    ["+X","PropertyKind","AssociationEnd"],
+    ["+M","UpperBound",""],
+    ["+M","+V","Public"]],
+   "tval": [
+    ["EA Specifics 1.0::DestStyle::AllowDuplicates","0"],
+    ["EA Specifics 1.0::DestStyle::Derived","0"],
+    ["EA Specifics 1.0::DestStyle::Navigable","Unspecified"],
+    ["EA Specifics 1.0::DestStyle::Owned","0"],
+    ["EA Specifics 1.0::DestStyle::Union","0"]],
+   "parent": "{CC932803-F947-4323-8686-FFF429EB715E}",
+   "ref": [
+    ["{BD066965-744A-4edf-8053-3E708727F5A6}","ConnectedObject",17],
+    ["{BD066965-744A-4edf-8053-3E708727F5A6}","Type",24],
+    ["{CC932803-F947-4323-8686-FFF429EB715E}","TargetConnectorEndOwner",55]]},
+  {
+   "oid": "bzaa9crSZVlEfOpEhzRi5brnLZjORiqub5IzumFT+4I=",
+   "id": "{39706d3d-352e-2135-c6c2-e6bc70af0652}",
+   "meta": [
+    ["Connector_Type","Abstraction"],
+    ["+ET","t_connector"],
+    ["+EY","ConnectorEnd"],
+    ["IsConnectorEnd","true"],
+    ["+UT","ConnectorEnd"]],
+   "prop": [
+    ["+M","AggregationKind","None"],
+    ["+X","+A",""],
+    ["+M","DefaultValue",""],
+    ["+M","+D",""],
+    ["+M","IsNavigable","true"],
+    ["+M","IsReadOnly","false"],
+    ["+M","IsStatic","false"],
+    ["+M","LowerBound",""],
+    ["+M","+N",""],
+    ["+X","PropertyKind","AssociationEnd"],
+    ["+M","UpperBound",""],
+    ["+M","+V","Public"]],
+   "tval": [
+    ["EA Specifics 1.0::DestStyle::AllowDuplicates","0"],
+    ["EA Specifics 1.0::DestStyle::Derived","0"],
+    ["EA Specifics 1.0::DestStyle::Navigable","Navigable"],
+    ["EA Specifics 1.0::DestStyle::Owned","0"],
+    ["EA Specifics 1.0::DestStyle::Union","0"]],
+   "parent": "{E407192D-E468-401b-820B-FCE2EB0C7EC5}",
+   "ref": [
+    ["{BD066965-744A-4edf-8053-3E708727F5A6}","ConnectedObject",17],
+    ["{BD066965-744A-4edf-8053-3E708727F5A6}","Type",24],
+    ["{E407192D-E468-401b-820B-FCE2EB0C7EC5}","TargetConnectorEndOwner",55]]},
+  {
+   "oid": "8I7rj1UG6HdFAtnLYBpPNccjRyHSF7UD6Tpe4weM2KY=",
+   "id": "{9aa0c80a-7740-2ab9-13c0-dc6e520ab387}",
+   "meta": [
+    ["Connector_Type","Abstraction"],
+    ["+ET","t_connector"],
+    ["+EY","ConnectorEnd"],
+    ["IsConnectorEnd","true"],
+    ["+UT","ConnectorEnd"]],
+   "prop": [
+    ["+M","AggregationKind","None"],
+    ["+X","+A",""],
+    ["+M","DefaultValue",""],
+    ["+M","+D",""],
+    ["+M","IsNavigable","false"],
+    ["+M","IsReadOnly","false"],
+    ["+M","IsStatic","false"],
+    ["+M","LowerBound",""],
+    ["+M","+N",""],
+    ["+X","PropertyKind","AssociationEnd"],
+    ["+M","UpperBound",""],
+    ["+M","+V","Public"]],
+   "tval": [
+    ["EA Specifics 1.0::SourceStyle::AllowDuplicates","0"],
+    ["EA Specifics 1.0::SourceStyle::Derived","0"],
+    ["EA Specifics 1.0::SourceStyle::Navigable","Non-Navigable"],
+    ["EA Specifics 1.0::SourceStyle::Owned","0"],
+    ["EA Specifics 1.0::SourceStyle::Union","0"]],
+   "parent": "{E407192D-E468-401b-820B-FCE2EB0C7EC5}",
+   "ref": [
+    ["{415C4BDA-7FB7-41ed-8401-A0A8B4C08143}","ConnectedObject",17],
+    ["{415C4BDA-7FB7-41ed-8401-A0A8B4C08143}","Type",24],
+    ["{E407192D-E468-401b-820B-FCE2EB0C7EC5}","SourceConnectorEndOwner",55]]},
   {
    "oid": "ehEULyVmTtVQ3trPFtymw4Z68Bq+OpZLAYcelJwryNo=",
    "id": "{84cc4845-3e61-8a4e-a977-1267d8d57ab3}",

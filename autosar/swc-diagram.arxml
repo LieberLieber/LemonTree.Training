@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_00050.xsd">
+  <AR-PACKAGES>
+    <AR-PACKAGE UUID="7df839f2-09ba-4886-bf0e-0d3e0fdec61a">
+      <SHORT-NAME>ARRoot</SHORT-NAME>
+      <AR-PACKAGES>
+        <AR-PACKAGE>
+          <SHORT-NAME>ApplicationDataType</SHORT-NAME>
+          <ELEMENTS>
+            <APPLICATION-PRIMITIVE-DATA-TYPE>
+              <SHORT-NAME>apdt_humidity</SHORT-NAME>
+              <CATEGORY>VALUE</CATEGORY>
+            </APPLICATION-PRIMITIVE-DATA-TYPE>
+            <APPLICATION-PRIMITIVE-DATA-TYPE>
+              <SHORT-NAME>apdt_temp</SHORT-NAME>
+              <CATEGORY>VALUE</CATEGORY>
+            </APPLICATION-PRIMITIVE-DATA-TYPE>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE>
+          <SHORT-NAME>SwComponents</SHORT-NAME>
+          <AR-PACKAGES>
+            <AR-PACKAGE>
+              <SHORT-NAME>PortInterfaces</SHORT-NAME>
+              <ELEMENTS>
+                <CLIENT-SERVER-INTERFACE>
+                  <SHORT-NAME>csi_climate_control</SHORT-NAME>
+                  <OPERATIONS>
+                    <CLIENT-SERVER-OPERATION>
+                      <SHORT-NAME>cso_turn_off_cooling</SHORT-NAME>
+                    </CLIENT-SERVER-OPERATION>
+                    <CLIENT-SERVER-OPERATION>
+                      <SHORT-NAME>cso_turn_off_heating</SHORT-NAME>
+                    </CLIENT-SERVER-OPERATION>
+                    <CLIENT-SERVER-OPERATION>
+                      <SHORT-NAME>cso_turn_on_cooling</SHORT-NAME>
+                    </CLIENT-SERVER-OPERATION>
+                    <CLIENT-SERVER-OPERATION>
+                      <SHORT-NAME>cso_turn_on_heating</SHORT-NAME>
+                    </CLIENT-SERVER-OPERATION>
+                  </OPERATIONS>
+                </CLIENT-SERVER-INTERFACE>
+                <SENDER-RECEIVER-INTERFACE>
+                  <SHORT-NAME>sri_humidity</SHORT-NAME>
+                  <IS-SERVICE>true</IS-SERVICE>
+                  <DATA-ELEMENTS>
+                    <VARIABLE-DATA-PROTOTYPE>
+                      <SHORT-NAME>vdp_humidity</SHORT-NAME>
+                      <TYPE-TREF DEST="APPLICATION-PRIMITIVE-DATA-TYPE">/ARRoot/ApplicationDataType/apdt_humidity</TYPE-TREF>
+                    </VARIABLE-DATA-PROTOTYPE>
+                  </DATA-ELEMENTS>
+                </SENDER-RECEIVER-INTERFACE>
+                <SENDER-RECEIVER-INTERFACE>
+                  <SHORT-NAME>sri_temperature</SHORT-NAME>
+                  <IS-SERVICE>true</IS-SERVICE>
+                  <DATA-ELEMENTS>
+                    <VARIABLE-DATA-PROTOTYPE>
+                      <SHORT-NAME>vdp_temperature</SHORT-NAME>
+                      <TYPE-TREF DEST="APPLICATION-PRIMITIVE-DATA-TYPE">/ARRoot/ApplicationDataType/apdt_temp</TYPE-TREF>
+                    </VARIABLE-DATA-PROTOTYPE>
+                  </DATA-ELEMENTS>
+                </SENDER-RECEIVER-INTERFACE>
+              </ELEMENTS>
+            </AR-PACKAGE>
+            <AR-PACKAGE>
+              <SHORT-NAME>SwComponentTypes</SHORT-NAME>
+              <AR-PACKAGES>
+                <AR-PACKAGE>
+                  <SHORT-NAME>AtomicSwComponentTypes</SHORT-NAME>
+                  <ELEMENTS>
+                    <APPLICATION-SW-COMPONENT-TYPE>
+                      <SHORT-NAME>aswct_air_conditioner</SHORT-NAME>
+                      <SHORT-NAME-PATTERN />
+                      <PORTS>
+                        <R-PORT-PROTOTYPE>
+                          <SHORT-NAME>rpp_climate_controls</SHORT-NAME>
+                          <REQUIRED-INTERFACE-TREF DEST="CLIENT-SERVER-INTERFACE">/ARRoot/SwComponents/PortInterfaces/csi_climate_control</REQUIRED-INTERFACE-TREF>
+                        </R-PORT-PROTOTYPE>
+                        <R-PORT-PROTOTYPE>
+                          <SHORT-NAME>rpp_humidity</SHORT-NAME>
+                          <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/ARRoot/SwComponents/PortInterfaces/sri_humidity</REQUIRED-INTERFACE-TREF>
+                        </R-PORT-PROTOTYPE>
+                        <R-PORT-PROTOTYPE>
+                          <SHORT-NAME>rpp_temperature</SHORT-NAME>
+                          <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/ARRoot/SwComponents/PortInterfaces/sri_temperature</REQUIRED-INTERFACE-TREF>
+                        </R-PORT-PROTOTYPE>
+                      </PORTS>
+                      <INTERNAL-BEHAVIORS>
+                        <SWC-INTERNAL-BEHAVIOR>
+                          <SHORT-NAME>swcib_air_conditioner</SHORT-NAME>
+                        </SWC-INTERNAL-BEHAVIOR>
+                      </INTERNAL-BEHAVIORS>
+                    </APPLICATION-SW-COMPONENT-TYPE>
+                    <APPLICATION-SW-COMPONENT-TYPE>
+                      <SHORT-NAME>aswct_climate_controller</SHORT-NAME>
+                      <PORTS>
+                        <P-PORT-PROTOTYPE>
+                          <SHORT-NAME>ppp_climate_controller</SHORT-NAME>
+                          <PROVIDED-INTERFACE-TREF DEST="CLIENT-SERVER-INTERFACE">/ARRoot/SwComponents/PortInterfaces/csi_climate_control</PROVIDED-INTERFACE-TREF>
+                        </P-PORT-PROTOTYPE>
+                      </PORTS>
+                    </APPLICATION-SW-COMPONENT-TYPE>
+                    <APPLICATION-SW-COMPONENT-TYPE>
+                      <SHORT-NAME>aswct_humidity_provider</SHORT-NAME>
+                      <PORTS>
+                        <P-PORT-PROTOTYPE>
+                          <SHORT-NAME>ppp_humidity</SHORT-NAME>
+                          <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/ARRoot/SwComponents/PortInterfaces/sri_humidity</PROVIDED-INTERFACE-TREF>
+                        </P-PORT-PROTOTYPE>
+                      </PORTS>
+                    </APPLICATION-SW-COMPONENT-TYPE>
+                    <APPLICATION-SW-COMPONENT-TYPE>
+                      <SHORT-NAME>aswct_temperature_display</SHORT-NAME>
+                      <PORTS>
+                        <R-PORT-PROTOTYPE>
+                          <SHORT-NAME>rpp_temperature</SHORT-NAME>
+                          <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/ARRoot/SwComponents/PortInterfaces/sri_temperature</REQUIRED-INTERFACE-TREF>
+                        </R-PORT-PROTOTYPE>
+                      </PORTS>
+                    </APPLICATION-SW-COMPONENT-TYPE>
+                    <APPLICATION-SW-COMPONENT-TYPE>
+                      <SHORT-NAME>aswct_temperature_provider</SHORT-NAME>
+                      <PORTS>
+                        <P-PORT-PROTOTYPE>
+                          <SHORT-NAME>ppp_temperature</SHORT-NAME>
+                          <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/ARRoot/SwComponents/PortInterfaces/sri_temperature</PROVIDED-INTERFACE-TREF>
+                        </P-PORT-PROTOTYPE>
+                      </PORTS>
+                    </APPLICATION-SW-COMPONENT-TYPE>
+                  </ELEMENTS>
+                </AR-PACKAGE>
+                <AR-PACKAGE>
+                  <SHORT-NAME>CompositionSwComponentTypes</SHORT-NAME>
+                  <ELEMENTS>
+                    <COMPOSITION-SW-COMPONENT-TYPE>
+                      <SHORT-NAME>cswct_air_conditioner_root_sw</SHORT-NAME>
+                      <COMPONENTS>
+                        <SW-COMPONENT-PROTOTYPE>
+                          <SHORT-NAME>scp_air_conditioner</SHORT-NAME>
+                          <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/ARRoot/SwComponents/SwComponentTypes/AtomicSwComponentTypes/aswct_air_conditioner</TYPE-TREF>
+                        </SW-COMPONENT-PROTOTYPE>
+                        <SW-COMPONENT-PROTOTYPE>
+                          <SHORT-NAME>scp_climate_controller</SHORT-NAME>
+                          <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/ARRoot/SwComponents/SwComponentTypes/AtomicSwComponentTypes/aswct_climate_controller</TYPE-TREF>
+                        </SW-COMPONENT-PROTOTYPE>
+                        <SW-COMPONENT-PROTOTYPE>
+                          <SHORT-NAME>scp_indoor_sensors</SHORT-NAME>
+                          <TYPE-TREF DEST="COMPOSITION-SW-COMPONENT-TYPE">/ARRoot/SwComponents/SwComponentTypes/CompositionSwComponentTypes/cswct_indoor_sensors</TYPE-TREF>
+                        </SW-COMPONENT-PROTOTYPE>
+                        <SW-COMPONENT-PROTOTYPE>
+                          <SHORT-NAME>scp_temperature_display</SHORT-NAME>
+                          <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/ARRoot/SwComponents/SwComponentTypes/AtomicSwComponentTypes/aswct_temperature_display</TYPE-TREF>
+                        </SW-COMPONENT-PROTOTYPE>
+                      </COMPONENTS>
+                      <CONNECTORS>
+                        <ASSEMBLY-SW-CONNECTOR>
+                          <SHORT-NAME>aswconn_climate_controls</SHORT-NAME>
+                          <PROVIDER-IREF>
+                            <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ARRoot/SwComponents/SwComponentTypes/CompositionSwComponentTypes/cswct_air_conditioner_root_sw/scp_climate_controller</CONTEXT-COMPONENT-REF>
+                            <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/ARRoot/SwComponents/SwComponentTypes/AtomicSwComponentTypes/aswct_climate_controller/ppp_climate_controller</TARGET-P-PORT-REF>
+                          </PROVIDER-IREF>
+                          <REQUESTER-IREF>
+                            <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ARRoot/SwComponents/SwComponentTypes/CompositionSwComponentTypes/cswct_air_conditioner_root_sw/scp_air_conditioner</CONTEXT-COMPONENT-REF>
+                            <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/ARRoot/SwComponents/SwComponentTypes/AtomicSwComponentTypes/aswct_air_conditioner/rpp_climate_controls</TARGET-R-PORT-REF>
+                          </REQUESTER-IREF>
+                        </ASSEMBLY-SW-CONNECTOR>
+                        <ASSEMBLY-SW-CONNECTOR>
+                          <SHORT-NAME>aswconn_humidity</SHORT-NAME>
+                          <PROVIDER-IREF>
+                            <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ARRoot/SwComponents/SwComponentTypes/CompositionSwComponentTypes/cswct_air_conditioner_root_sw/scp_indoor_sensors</CONTEXT-COMPONENT-REF>
+                            <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/ARRoot/SwComponents/SwComponentTypes/CompositionSwComponentTypes/cswct_indoor_sensors/ppp_humidity</TARGET-P-PORT-REF>
+                          </PROVIDER-IREF>
+                          <REQUESTER-IREF>
+                            <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ARRoot/SwComponents/SwComponentTypes/CompositionSwComponentTypes/cswct_air_conditioner_root_sw/scp_air_conditioner</CONTEXT-COMPONENT-REF>
+                            <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/ARRoot/SwComponents/SwComponentTypes/AtomicSwComponentTypes/aswct_air_conditioner/rpp_humidity</TARGET-R-PORT-REF>
+                          </REQUESTER-IREF>
+                        </ASSEMBLY-SW-CONNECTOR>
+                        <ASSEMBLY-SW-CONNECTOR>
+                          <SHORT-NAME>aswconn_temperature</SHORT-NAME>
+                          <PROVIDER-IREF>
+                            <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ARRoot/SwComponents/SwComponentTypes/CompositionSwComponentTypes/cswct_air_conditioner_root_sw/scp_indoor_sensors</CONTEXT-COMPONENT-REF>
+                            <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/ARRoot/SwComponents/SwComponentTypes/CompositionSwComponentTypes/cswct_indoor_sensors/ppp_temperature</TARGET-P-PORT-REF>
+                          </PROVIDER-IREF>
+                          <REQUESTER-IREF>
+                            <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ARRoot/SwComponents/SwComponentTypes/CompositionSwComponentTypes/cswct_air_conditioner_root_sw/scp_air_conditioner</CONTEXT-COMPONENT-REF>
+                            <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/ARRoot/SwComponents/SwComponentTypes/AtomicSwComponentTypes/aswct_air_conditioner/rpp_temperature</TARGET-R-PORT-REF>
+                          </REQUESTER-IREF>
+                        </ASSEMBLY-SW-CONNECTOR>
+                        <ASSEMBLY-SW-CONNECTOR>
+                          <SHORT-NAME>aswconn_temperature_display</SHORT-NAME>
+                          <PROVIDER-IREF>
+                            <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ARRoot/SwComponents/SwComponentTypes/CompositionSwComponentTypes/cswct_air_conditioner_root_sw/scp_indoor_sensors</CONTEXT-COMPONENT-REF>
+                            <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/ARRoot/SwComponents/SwComponentTypes/CompositionSwComponentTypes/cswct_indoor_sensors/ppp_temperature</TARGET-P-PORT-REF>
+                          </PROVIDER-IREF>
+                          <REQUESTER-IREF>
+                            <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ARRoot/SwComponents/SwComponentTypes/CompositionSwComponentTypes/cswct_air_conditioner_root_sw/scp_temperature_display</CONTEXT-COMPONENT-REF>
+                            <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/ARRoot/SwComponents/SwComponentTypes/AtomicSwComponentTypes/aswct_temperature_display/rpp_temperature</TARGET-R-PORT-REF>
+                          </REQUESTER-IREF>
+                        </ASSEMBLY-SW-CONNECTOR>
+                      </CONNECTORS>
+                    </COMPOSITION-SW-COMPONENT-TYPE>
+                    <COMPOSITION-SW-COMPONENT-TYPE>
+                      <SHORT-NAME>cswct_indoor_sensors</SHORT-NAME>
+                      <SHORT-NAME-PATTERN />
+                      <PORTS>
+                        <P-PORT-PROTOTYPE>
+                          <SHORT-NAME>ppp_humidity</SHORT-NAME>
+                          <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/ARRoot/SwComponents/PortInterfaces/sri_humidity</PROVIDED-INTERFACE-TREF>
+                        </P-PORT-PROTOTYPE>
+                        <P-PORT-PROTOTYPE>
+                          <SHORT-NAME>ppp_temperature</SHORT-NAME>
+                          <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/ARRoot/SwComponents/PortInterfaces/sri_temperature</PROVIDED-INTERFACE-TREF>
+                        </P-PORT-PROTOTYPE>
+                      </PORTS>
+                      <COMPONENTS>
+                        <SW-COMPONENT-PROTOTYPE>
+                          <SHORT-NAME>scp_humidity_provider</SHORT-NAME>
+                          <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/ARRoot/SwComponents/SwComponentTypes/AtomicSwComponentTypes/aswct_humidity_provider</TYPE-TREF>
+                        </SW-COMPONENT-PROTOTYPE>
+                        <SW-COMPONENT-PROTOTYPE>
+                          <SHORT-NAME>scp_temperature_provider</SHORT-NAME>
+                          <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/ARRoot/SwComponents/SwComponentTypes/AtomicSwComponentTypes/aswct_temperature_provider</TYPE-TREF>
+                        </SW-COMPONENT-PROTOTYPE>
+                      </COMPONENTS>
+                      <CONNECTORS>
+                        <DELEGATION-SW-CONNECTOR>
+                          <SHORT-NAME>dswconn_ppp_humidity</SHORT-NAME>
+                          <INNER-PORT-IREF>
+                            <P-PORT-IN-COMPOSITION-INSTANCE-REF>
+                              <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ARRoot/SwComponents/SwComponentTypes/CompositionSwComponentTypes/cswct_indoor_sensors/scp_humidity_provider</CONTEXT-COMPONENT-REF>
+                              <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/ARRoot/SwComponents/SwComponentTypes/AtomicSwComponentTypes/aswct_humidity_provider/ppp_humidity</TARGET-P-PORT-REF>
+                            </P-PORT-IN-COMPOSITION-INSTANCE-REF>
+                          </INNER-PORT-IREF>
+                          <OUTER-PORT-REF DEST="P-PORT-PROTOTYPE">/ARRoot/SwComponents/SwComponentTypes/CompositionSwComponentTypes/cswct_indoor_sensors/ppp_humidity</OUTER-PORT-REF>
+                        </DELEGATION-SW-CONNECTOR>
+                        <DELEGATION-SW-CONNECTOR S="" UUID="">
+                          <SHORT-NAME>dswconn_ppp_temperature</SHORT-NAME>
+                          <CATEGORY />
+                          <INNER-PORT-IREF>
+                            <P-PORT-IN-COMPOSITION-INSTANCE-REF>
+                              <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ARRoot/SwComponents/SwComponentTypes/CompositionSwComponentTypes/cswct_indoor_sensors/scp_temperature_provider</CONTEXT-COMPONENT-REF>
+                              <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/ARRoot/SwComponents/SwComponentTypes/AtomicSwComponentTypes/aswct_temperature_provider/ppp_temperature</TARGET-P-PORT-REF>
+                            </P-PORT-IN-COMPOSITION-INSTANCE-REF>
+                          </INNER-PORT-IREF>
+                          <OUTER-PORT-REF DEST="P-PORT-PROTOTYPE">/ARRoot/SwComponents/SwComponentTypes/CompositionSwComponentTypes/cswct_indoor_sensors/ppp_temperature</OUTER-PORT-REF>
+                        </DELEGATION-SW-CONNECTOR>
+                      </CONNECTORS>
+                    </COMPOSITION-SW-COMPONENT-TYPE>
+                  </ELEMENTS>
+                </AR-PACKAGE>
+              </AR-PACKAGES>
+            </AR-PACKAGE>
+          </AR-PACKAGES>
+        </AR-PACKAGE>
+      </AR-PACKAGES>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>
+
